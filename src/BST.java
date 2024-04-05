@@ -181,6 +181,7 @@ public class BST {
         else if (val > node.getVal())
             node.setRight(insert(node.getRight(), val));
 
+
         return node;
     }
 
